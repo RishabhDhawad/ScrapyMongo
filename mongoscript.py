@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import datetime
 
-client = MongoClient("mongodb+srv://test:Password@1@scrapy.kxqfcyt.mongodb.net/")
+client = MongoClient("mongodb+srv://test:Password@scrapymongo.n15gpxm.mongodb.net")
 
 db = client.scrapy
 
