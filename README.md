@@ -85,10 +85,6 @@ pip install scrapy pymongo itemadapter parsel
 
 2. Replace the placeholder:
    ```python
-   # Before
-   MongoClient("mongodb+srv://test:Password@scrapymongo.n15gpxm.mongodb.net")
-   
-   # After (use your own credentials)
    MongoClient("mongodb+srv://your_user:your_password@your_cluster.mongodb.net")
    ```
 
