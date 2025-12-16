@@ -1,16 +1,21 @@
 from pymongo import MongoClient
 import datetime
+import os
 
-client = MongoClient("mongodb+srv://test:Password@scrapymongo.n15gpxm.mongodb.net")
+MONGODB_URI = os.getenv("MONGODB_URI")
+if not MONGODB_URI:
+    raise RuntimeError("MONGODB_URI environment variable is not set")
 
+client = MongoClient(MONGODB_URI)
 db = client.scrapy
 
 posts = db.test_collection
 
-doc = post = {"author": "Mike",
-              "text": "My first blog post!",
-              "tags": ["mongodb", "python", "pymongo"],
-              "date": datetime.datetime.utcnow()}
+post = {
+    "author": "Mike",
+    "text": "My first blog post!",
+    "tags": ["mongodb", "python", "pymongo"],
+    "date": datetime.datetime.utcnow(),
+}
 
 post_id = posts.insert_one(post).inserted_id
-

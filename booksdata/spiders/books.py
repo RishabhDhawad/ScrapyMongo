@@ -2,7 +2,7 @@ import scrapy
 from pathlib import Path
 from pymongo import MongoClient
 import datetime
-
+import os
 
 client = MongoClient("mongodb+srv://test:Password@scrapymongo.n15gpxm.mongodb.net")
 db = client.scrapy
