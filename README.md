@@ -9,11 +9,10 @@
 
 **A powerful web scraping tool that extracts book listings, stores them in MongoDB, and generates beautiful HTML tables**
 
-## 🎥 Scrapy + MongoDB Project Demo
+<!-- ## 🎥 Scrapy + MongoDB Project Demo -->
+## 📽️ Project Demo – Scrapy MongoDB Pipeline
 
-Click the image below to watch the full walkthrough:
-
-[![Scrapy + MongoDB Project Demo](./assets/thumbnail2.png)](https://www.loom.com/share/02a20879b2784b7abff66991fc26af29)
+<video src="./assets/ScrapyMongo.mp4" controls width="100%"></video>
 
 
 </div>
