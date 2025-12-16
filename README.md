@@ -13,8 +13,8 @@
 
 ## 📽️ Project Demo
 
-<a href="https://www.loom.com/share/02a20879b2784b7abff66991fc26af29" target="_blank">
-  ▶ Watch Project Demo (Loom Video)
+<a href="https://youtu.be/HZ7kHvQMox8?si=OpWNIX0xTDc4ciBI" target="_blank">
+  ▶ Watch Project Demo 
 </a>
 
 
