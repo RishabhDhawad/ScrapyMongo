@@ -5,16 +5,17 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-> Scrapes book listings from Books to Scrape, stores results in MongoDB Atlas, and generates formatted HTML tables.
+> A powerful web scraping tool that extracts book listings, stores them in MongoDB, and generates beautiful HTML tables
 
-**A powerful web scraping tool that extracts book listings, stores them in MongoDB, and generates beautiful HTML tables**
+
+[![Scrapy MongoDB Project Demo](./assets/thumbnail2.png)]()
+
 
 ## 📽️ Project Demo
 
-<video src="./assets/ScrapyMongo.mp4" controls width="100%"></video>
-
-🔗 Full walkthrough:  
-https://drive.google.com/file/d/1fQvmKWBCiG294KdBHIVGVDETxMJkjM2f/view
+<a href="https://www.loom.com/share/02a20879b2784b7abff66991fc26af29" target="_blank">
+  ▶ Watch Project Demo (Loom Video)
+</a>
 
 
 ---
